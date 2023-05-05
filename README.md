@@ -1,22 +1,28 @@
-## Available Scripts
+You can see the demo on https://lenarfattakhov.com/rodeo-task/
 
-In the project directory, you can run:
+### Commands
 
-### `npm start`
+- `npm start`
+- `npm test`
 
-### `npm test`
+## Description
 
-### `npm run build`
+Here are my notes to this small project
 
+- Used `React` and `TypeScript`
+- `react-router-dom` for routing
+- Built no architecture, since the project is very small. But put pages into `pages`, reusable components into `shared`, project related components into `components` folders
+- `react-query` helped me with async requests and caching
+- `dayjs` for counting days until Invoice expires
+- `mui` for material design
+- Added unit tests for utils folder, for pure functions
+- `useMemo` hook helped me to prevent recalculations 
+- Emulated loading from server using setTimeout, stored data in `mockdata.json`
+- Kept TS types in `types` folder
 
-- React, TypeScript
-- React-router
-- no architecture
-- react-query
-- dayjs
-- mui
-- unit tests for utils
-- useMemo
-- pages in `pages`, reusable components in `shared`, project related components in `components`
-- emulating loading from server, data in mockdata.json
-- TS types in `types`
+## Screenshots:
+
+<img src="https://lenarfattakhov.com/assets/rodeo/1.png" width="600" title="screenshot one">
+<img src="https://lenarfattakhov.com/assets/rodeo/2.png" width="600" title="screenshot two">
+<img src="https://lenarfattakhov.com/assets/rodeo/3.png" width="600" title="screenshot three">
+<img src="https://lenarfattakhov.com/assets/rodeo/4.png" width="600" title="screenshot four">
