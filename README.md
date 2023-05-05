@@ -15,6 +15,8 @@ Here are my notes to this small project
 - `react-query` helped me with async requests and caching
 - `dayjs` for counting days until Invoice expires
 - `mui` for material design
+- CSS modules for styling
+- No adaptive design yet
 - Added unit tests for utils folder, for pure functions
 - `useMemo` hook helped me to prevent recalculations 
 - Emulated loading from server using setTimeout, stored data in `mockdata.json`
